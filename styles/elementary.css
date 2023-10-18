@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul {
+    list-style: none;
+}
+
+#presentation_section{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(27, 38, 33);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#presentation_logo_section{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    height: 75%;
+    width: 85%;
+    /* background-color: aqua; */
+}
+
+#logo_section{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    /* background-color: blueviolet; */
+}
+
+#foto_logo{
+    margin: auto;
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    background-color: coral;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background: url('../images/icon-images/logo-principal.jpg') no-repeat center;
+    background-size: cover;
+
+}
+
+#eslogan_section{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    max-width: 420px;
+    /* background-color: chartreuse; */
+}
+
+#principal_title{
+    font-size: 36px;
+    color: #17f28c;
+    text-shadow: 0 0 10px rgba(21, 202, 139, 0.8);
+}
+
+.secondary_title{
+    font-size: 28px;
+    color: #166944;
+    margin-bottom: 10px;
+}
+
+.third_place_text{
+    font-size: 18px;
+}
+
+#desciption_title{
+    margin-top: 15px;
+    color: aliceblue;
+}
+
+#navbar_section{
+    height: 80px;
+    width: 100%;
+    background-color: blue;
+    position: fixed;
+    z-index: 1000;
+}
+
+#navbar_section ul{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+/*
+///////////////////////SECTIONS
+*/
+.info_section{
+    padding: auto 40px;
+}
+
+.titles_sec h2{
+    margin-bottom: 15px;
+}
+
+#seccion1{
+    padding-top: 80px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(221, 221, 220);
+}
+
+#seccion2{
+    padding-top: 80px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(221, 221, 220);
+}
+
+#seccion3{
+    padding-top: 80px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(221, 221, 220);
+    padding-bottom: 20px;
+}
+
+.section_container{
+    width: 85%;
+    margin: auto;
+}
+
+#nosotros-section{
+    display: flex;
+    width: 100%;
+}
+
+.second-text{
+    height: auto;
+    font-size: 18px;
+}
+
+.grid_services{
+    width: 93%;
+    margin: 30px auto 0px auto;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-auto-rows: 230px;
+    grid-auto-flow: row; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    column-gap: 20px;
+}
+
+.cad_container{
+    height: 350px;
+    border-radius: 25px;
+    width: 220px;
+    transition: 0.5s;
+    background-color: antiquewhite;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: .5s;
+}
+
+.cad_container:hover{
+    transform: scale(1.05);
+}
+
+.service{
+    height: 150px;
+    width: 100%;
+    background-color: blue;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    cursor: pointer;
+}
+
+.service h3{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+/*ICONOS---------------------------------------------------------------*/
+
+.aire-icon{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)),  url('../images/icon-images/aire-icon.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.heladera-icon{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)),  url('../images/icon-images/heladera-icon.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.heladera-comercial-icon{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)),  url('../images/icon-images/heladera-comercial-icon.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.lavarropas-icon{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)),  url('../images/icon-images/lavarropas-icon.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.service_description{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cad_note_client{
+    min-width: 400px;
+    height: auto;
+    background-color: red;
+}
+
+.note_client{
+    width: 100%;
+}
+
+/*
+//////////////////////////////////////EFECTOS/////////////////////////////////////////////////////////////////
+*/
+

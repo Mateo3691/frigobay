@@ -1,0 +1,11 @@
+#contacto{
+   background-color: rgb(46 58 52);
+   color: aliceblue;
+}
+
+.contacto_sec{
+   padding-top: 40px;
+   display: flex;
+   justify-content: center; 
+
+}
